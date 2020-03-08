@@ -1,5 +1,4 @@
-Cf = float(input('Custo de fabrica: '))
-Cd = Cf * 0.28
-Ci = Cf * 0.45 
-Ct = Cf + Cd + Ci
-print('Custo total do carro ao comsumidor: ', Ct)
+C = float(input('Quantidade a pagar: '))
+CA = C//3
+F = C%3 + CA
+print ('Carlos e Andre' ,CA ,'Felipe' ,F )
