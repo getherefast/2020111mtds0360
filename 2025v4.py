@@ -1,0 +1,8 @@
+print('Em que ano voce nasceu? ')
+nascimento = input( )
+nascimento = int(nascimento)
+print('Para qual ano voce quer saber sua idade?')
+X = input( )
+X = int(X)
+idadeEmX = (X - nascimento)
+print ('Em 2025 voce tera' , idadeEmX , ' anos!')

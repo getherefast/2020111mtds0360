@@ -1,0 +1,5 @@
+print('Quantos anos voce tem? ')
+idade = input( )
+idade = int(idade)
+idadeEmC = (idade*7)
+print ('Se voce fosse cachorro, voce teria' , idadeEmC , ' anos!')
